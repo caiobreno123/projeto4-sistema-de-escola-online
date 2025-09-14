@@ -5,12 +5,10 @@ class Aluno extends Usuario {
     super(nome, idade);
   }
 
-  // Sobrescreve o método acessoPainel
   acessoPainel() {
     return "Painel do Aluno: consultar notas e disciplinas";
   }
 
-  // Método para adicionar notas
   adicionarNota(nota) {
     if (!this.notas) {
       this.notas = [];
@@ -20,3 +18,4 @@ class Aluno extends Usuario {
 }
 
 module.exports = Aluno;
+
