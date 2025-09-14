@@ -4,7 +4,6 @@ class Usuario {
     this.idade = idade;
   }
 
-  // Getters e Setters
   getNome() {
     return this.nome;
   }
@@ -21,10 +20,10 @@ class Usuario {
     this.idade = idade;
   }
 
-  // Método para acessar o painel
   acessoPainel() {
     return "Acesso ao sistema escolar";
   }
 }
 
 module.exports = Usuario;
+
